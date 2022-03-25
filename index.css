@@ -1,0 +1,110 @@
+/* banner ads on the left */
+.banner {
+  width: 20%;
+  background:url(images/ad_background.gif);
+  background-size: cover;
+  font-size: 80px;
+  color: #fff;
+  float: left;
+  text-align: center;
+  padding: 40px 15px;
+  opacity: 0.8;
+}
+
+.big-text {
+  font-size: 130px;
+  font-weight:800;
+  animation-delay: 1s;
+}
+.banner a {
+  display: inline-block;
+  background: chocolate;
+  color: #36465d;
+  text-transform: uppercase;
+  padding: 15px;
+  text-decoration: none;
+  font-size: 40px;
+  transition: .3s;
+}
+.banner a:hover {
+  background: #fff;
+  color: #262626;
+  padding: 15px 20px;
+}
+
+
+/* ads banner on the right */
+.banner1 {
+ width: 20%;
+ background:url(images/ad_background.gif);
+ background-size: cover;
+ font-size: 80px;
+ color: #fff;
+ float: right;
+ display: inline;
+ text-align: center;
+ padding: 40px 15px;
+ opacity: 0.8;
+}
+
+.big-text {
+ font-size: 130px;
+ font-weight:800;
+ animation-delay: 1s;
+}
+.banner1 a {
+ display: inline-block;
+ background: chocolate;
+ color: #36465d;
+ text-transform: uppercase;
+ padding: 15px;
+ text-decoration: none;
+ font-size: 40px;
+ transition: .3s;
+}
+.banner1 a:hover {
+ background: #fff;
+ color: #262626;
+ padding: 15px 20px;
+}
+
+
+/* Welcome note*/
+.box {
+  float: left;
+  margin: 50px;
+  max-width: 700px;
+  padding: 50px;
+  background: rgba(255, 255, 255, .2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+.box h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;  /*044463*/
+}
+
+.box p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+}
+
+/* map of the coffee cup */
+.map {
+  position: absolute;
+  left: 320px;
+  top: 700px;
+}
+
+.map h1 {
+  text-align: center;
+  font-size: 28px;
+  color: white;
+  text-transform: uppercase;
+}

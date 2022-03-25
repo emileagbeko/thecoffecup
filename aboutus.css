@@ -1,0 +1,60 @@
+/* styling of the images*/
+*{
+  box-sizing: border-box;
+}
+
+/*.row{
+  display: inline;
+}*/
+
+.clm{
+  float: left;
+  width: 33.33%;
+  padding: 3px;
+  display: inline;
+}
+
+
+.clm img{
+  height: 300px;
+}
+
+
+
+/* template code*/
+/*.clm {
+  float:right;
+  width: 33.33%;
+  padding: 3px;
+}*/
+
+/*.clm img{
+  height: 300px;
+}*/
+
+/* About us note*/
+.box {
+  float: left;
+  margin: 3px;
+  max-width: 700px;
+  padding: 50px;
+  background: rgba(255, 255, 255, .2);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  display: inline;
+}
+
+
+.box h1 {
+  margin: 0 0 20px;
+  padding: 0;
+  font-size: 28px;
+  text-transform: uppercase;
+  color: white;  /*044463*/
+}
+
+.box p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: white;
+}
